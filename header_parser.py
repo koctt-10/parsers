@@ -1,5 +1,5 @@
 import requests
-i = input("Link")
+i = input("Link:")
 response = requests.get(i)
 items = response.headers.items()
 headers = [f'{key}: {header}' for key, header in items]
