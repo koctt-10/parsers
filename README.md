@@ -1,2 +1,2 @@
 # parsers
-My parser projects
+pip install requests
